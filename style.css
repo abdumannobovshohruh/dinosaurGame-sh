@@ -82,7 +82,6 @@
     left: 580px;
     animation: cactusMov 1s infinite linear;
 }
-}
 @keyframes jump  {
     0%{
         top: 10px;
@@ -99,4 +98,5 @@
     100%{
         top: 5px;
     }
+}
 }
