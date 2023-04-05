@@ -55,3 +55,48 @@
         top: 150px;
     }
 }
+
+
+@media (max-width: 575px) {
+    .game{
+        width: 100%;
+        height: 100%;
+        border-bottom: 1px solid #000;
+        margin: auto;
+    }
+    #dino{
+        width: 50px;
+        height: 50px;
+        background-image: url(img/dino.jpg);
+        background-size: 50px 50px;
+        position: relative;
+        top: 40px;
+    }
+    #cactus{
+    width: 20px;
+    height: 40px;
+    background-image: url(img/cacf.png);
+    background-size: 20px 40px;
+    position: relative;
+    top: 0px;
+    left: 580px;
+    animation: cactusMov 1s infinite linear;
+}
+}
+@keyframes jump  {
+    0%{
+        top: 10px;
+    }
+    30%{
+        top: 5px;
+    }
+    50%{
+        top: 2px;
+    }
+    80%{
+        top: 10px; 
+    }
+    100%{
+        top: 5px;
+    }
+}
